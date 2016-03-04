@@ -12,10 +12,10 @@ joshbulaApp.config(['$routeProvider',
             templateUrl: 'app/views/skills.html',
             controller: 'SkillsCtrl'
         }).
-        when('/work', {
-            title: 'Work',
-            templateUrl: 'app/views/work.html',
-            controller: "WorkCtrl"
+        when('/resume', {
+            title: 'Resume',
+            templateUrl: 'app/views/resume.html',
+            controller: "ResumeCtrl"
         }).
          when('/contact', {
              title: 'Contact',
