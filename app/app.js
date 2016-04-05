@@ -28,7 +28,6 @@ joshbulaApp.config(['$routeProvider',
 ]);
 
 
-// This is the key to view transition happiness!
 joshbulaApp.run(function ($rootScope, $timeout, $window) {
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
 
